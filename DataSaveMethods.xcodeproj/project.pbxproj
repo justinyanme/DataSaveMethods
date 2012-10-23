@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB74458B16369BB00002CE19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB74458A16369BB00002CE19 /* UIKit.framework */; };
+		DB74458D16369BB00002CE19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB74458C16369BB00002CE19 /* Foundation.framework */; };
+		DB74458F16369BB00002CE19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB74458E16369BB00002CE19 /* CoreGraphics.framework */; };
+		DB74459516369BB00002CE19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB74459316369BB00002CE19 /* InfoPlist.strings */; };
+		DB74459716369BB00002CE19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74459616369BB00002CE19 /* main.m */; };
+		DB74459B16369BB00002CE19 /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74459A16369BB00002CE19 /* WSAppDelegate.m */; };
+		DB74459D16369BB00002CE19 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB74459C16369BB00002CE19 /* Default.png */; };
+		DB74459F16369BB00002CE19 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB74459E16369BB00002CE19 /* Default@2x.png */; };
+		DB7445A116369BB00002CE19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7445A016369BB00002CE19 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB74458616369BB00002CE19 /* DataSaveMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSaveMethods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB74458A16369BB00002CE19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB74458C16369BB00002CE19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB74458E16369BB00002CE19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB74459216369BB00002CE19 /* DataSaveMethods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataSaveMethods-Info.plist"; sourceTree = "<group>"; };
+		DB74459416369BB00002CE19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB74459616369BB00002CE19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB74459816369BB00002CE19 /* DataSaveMethods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataSaveMethods-Prefix.pch"; sourceTree = "<group>"; };
+		DB74459916369BB00002CE19 /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
+		DB74459A16369BB00002CE19 /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
+		DB74459C16369BB00002CE19 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB74459E16369BB00002CE19 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB7445A016369BB00002CE19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB74458316369BB00002CE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB74458B16369BB00002CE19 /* UIKit.framework in Frameworks */,
+				DB74458D16369BB00002CE19 /* Foundation.framework in Frameworks */,
+				DB74458F16369BB00002CE19 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB74457B16369BB00002CE19 = {
+			isa = PBXGroup;
+			children = (
+				DB74459016369BB00002CE19 /* DataSaveMethods */,
+				DB74458916369BB00002CE19 /* Frameworks */,
+				DB74458716369BB00002CE19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB74458716369BB00002CE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB74458616369BB00002CE19 /* DataSaveMethods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB74458916369BB00002CE19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB74458A16369BB00002CE19 /* UIKit.framework */,
+				DB74458C16369BB00002CE19 /* Foundation.framework */,
+				DB74458E16369BB00002CE19 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB74459016369BB00002CE19 /* DataSaveMethods */ = {
+			isa = PBXGroup;
+			children = (
+				DB74459916369BB00002CE19 /* WSAppDelegate.h */,
+				DB74459A16369BB00002CE19 /* WSAppDelegate.m */,
+				DB74459116369BB00002CE19 /* Supporting Files */,
+			);
+			path = DataSaveMethods;
+			sourceTree = "<group>";
+		};
+		DB74459116369BB00002CE19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB74459216369BB00002CE19 /* DataSaveMethods-Info.plist */,
+				DB74459316369BB00002CE19 /* InfoPlist.strings */,
+				DB74459616369BB00002CE19 /* main.m */,
+				DB74459816369BB00002CE19 /* DataSaveMethods-Prefix.pch */,
+				DB74459C16369BB00002CE19 /* Default.png */,
+				DB74459E16369BB00002CE19 /* Default@2x.png */,
+				DB7445A016369BB00002CE19 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB74458516369BB00002CE19 /* DataSaveMethods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7445A416369BB00002CE19 /* Build configuration list for PBXNativeTarget "DataSaveMethods" */;
+			buildPhases = (
+				DB74458216369BB00002CE19 /* Sources */,
+				DB74458316369BB00002CE19 /* Frameworks */,
+				DB74458416369BB00002CE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataSaveMethods;
+			productName = DataSaveMethods;
+			productReference = DB74458616369BB00002CE19 /* DataSaveMethods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB74457D16369BB00002CE19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = WhisperStudio;
+			};
+			buildConfigurationList = DB74458016369BB00002CE19 /* Build configuration list for PBXProject "DataSaveMethods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB74457B16369BB00002CE19;
+			productRefGroup = DB74458716369BB00002CE19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB74458516369BB00002CE19 /* DataSaveMethods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB74458416369BB00002CE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB74459516369BB00002CE19 /* InfoPlist.strings in Resources */,
+				DB74459D16369BB00002CE19 /* Default.png in Resources */,
+				DB74459F16369BB00002CE19 /* Default@2x.png in Resources */,
+				DB7445A116369BB00002CE19 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB74458216369BB00002CE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB74459716369BB00002CE19 /* main.m in Sources */,
+				DB74459B16369BB00002CE19 /* WSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB74459316369BB00002CE19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB74459416369BB00002CE19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7445A216369BB00002CE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB7445A316369BB00002CE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB7445A516369BB00002CE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataSaveMethods/DataSaveMethods-Prefix.pch";
+				INFOPLIST_FILE = "DataSaveMethods/DataSaveMethods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB7445A616369BB00002CE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataSaveMethods/DataSaveMethods-Prefix.pch";
+				INFOPLIST_FILE = "DataSaveMethods/DataSaveMethods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB74458016369BB00002CE19 /* Build configuration list for PBXProject "DataSaveMethods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7445A216369BB00002CE19 /* Debug */,
+				DB7445A316369BB00002CE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7445A416369BB00002CE19 /* Build configuration list for PBXNativeTarget "DataSaveMethods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7445A516369BB00002CE19 /* Debug */,
+				DB7445A616369BB00002CE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB74457D16369BB00002CE19 /* Project object */;
+}

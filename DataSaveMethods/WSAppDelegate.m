@@ -21,6 +21,12 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    _mainController = [[WSMainViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController * aNaviController = [[UINavigationController alloc] initWithRootViewController:_mainController];
+    self.window.rootViewController = aNaviController;
+    [aNaviController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

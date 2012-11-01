@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WSMainViewController.h"
 
-@interface WSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WSAppDelegate : UIResponder <UIApplicationDelegate> {
+    WSMainViewController * _mainController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

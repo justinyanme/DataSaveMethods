@@ -16,6 +16,14 @@
 		DB74459D16369BB00002CE19 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB74459C16369BB00002CE19 /* Default.png */; };
 		DB74459F16369BB00002CE19 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB74459E16369BB00002CE19 /* Default@2x.png */; };
 		DB7445A116369BB00002CE19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7445A016369BB00002CE19 /* Default-568h@2x.png */; };
+		DB7445B31636A2040002CE19 /* WSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7445B21636A2040002CE19 /* WSMainViewController.m */; };
+		DBD7441A163A56C2003E793C /* WSNSCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD74419163A56C2003E793C /* WSNSCodingViewController.m */; };
+		DBD7441F163A5718003E793C /* WSNSCodingData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD7441E163A5718003E793C /* WSNSCodingData.m */; };
+		DBF595AD163790B0004A9AB1 /* WSUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF595AC163790B0004A9AB1 /* WSUDViewController.m */; };
+		DBF595B21637993A004A9AB1 /* WSPlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF595B11637993A004A9AB1 /* WSPlistViewController.m */; };
+		DBF595BD1638EA98004A9AB1 /* WSRawFileAPIsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF595BC1638EA98004A9AB1 /* WSRawFileAPIsViewController.m */; };
+		DBF8DFD2163E9122005895B0 /* WSSQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8DFD1163E9122005895B0 /* WSSQLiteViewController.m */; };
+		DBF8DFD6163E91DF005895B0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF8DFD5163E91DF005895B0 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,21 @@
 		DB74459C16369BB00002CE19 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DB74459E16369BB00002CE19 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DB7445A016369BB00002CE19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB7445B11636A2040002CE19 /* WSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSMainViewController.h; path = Main/WSMainViewController.h; sourceTree = "<group>"; };
+		DB7445B21636A2040002CE19 /* WSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSMainViewController.m; path = Main/WSMainViewController.m; sourceTree = "<group>"; };
+		DBD74418163A56C2003E793C /* WSNSCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNSCodingViewController.h; sourceTree = "<group>"; };
+		DBD74419163A56C2003E793C /* WSNSCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNSCodingViewController.m; sourceTree = "<group>"; };
+		DBD7441D163A5718003E793C /* WSNSCodingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNSCodingData.h; sourceTree = "<group>"; };
+		DBD7441E163A5718003E793C /* WSNSCodingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNSCodingData.m; sourceTree = "<group>"; };
+		DBF595AB163790B0004A9AB1 /* WSUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUDViewController.h; sourceTree = "<group>"; };
+		DBF595AC163790B0004A9AB1 /* WSUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUDViewController.m; sourceTree = "<group>"; };
+		DBF595B01637993A004A9AB1 /* WSPlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlistViewController.h; sourceTree = "<group>"; };
+		DBF595B11637993A004A9AB1 /* WSPlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlistViewController.m; sourceTree = "<group>"; };
+		DBF595BB1638EA98004A9AB1 /* WSRawFileAPIsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRawFileAPIsViewController.h; sourceTree = "<group>"; };
+		DBF595BC1638EA98004A9AB1 /* WSRawFileAPIsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRawFileAPIsViewController.m; sourceTree = "<group>"; };
+		DBF8DFD0163E9122005895B0 /* WSSQLiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSQLiteViewController.h; sourceTree = "<group>"; };
+		DBF8DFD1163E9122005895B0 /* WSSQLiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSQLiteViewController.m; sourceTree = "<group>"; };
+		DBF8DFD5163E91DF005895B0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF8DFD6163E91DF005895B0 /* libsqlite3.0.dylib in Frameworks */,
 				DB74458B16369BB00002CE19 /* UIKit.framework in Frameworks */,
 				DB74458D16369BB00002CE19 /* Foundation.framework in Frameworks */,
 				DB74458F16369BB00002CE19 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +92,7 @@
 		DB74458916369BB00002CE19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBF8DFD5163E91DF005895B0 /* libsqlite3.0.dylib */,
 				DB74458A16369BB00002CE19 /* UIKit.framework */,
 				DB74458C16369BB00002CE19 /* Foundation.framework */,
 				DB74458E16369BB00002CE19 /* CoreGraphics.framework */,
@@ -80,6 +105,7 @@
 			children = (
 				DB74459916369BB00002CE19 /* WSAppDelegate.h */,
 				DB74459A16369BB00002CE19 /* WSAppDelegate.m */,
+				DB7445AA1636A0400002CE19 /* Main */,
 				DB74459116369BB00002CE19 /* Supporting Files */,
 			);
 			path = DataSaveMethods;
@@ -97,6 +123,67 @@
 				DB7445A016369BB00002CE19 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB7445AA1636A0400002CE19 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB7445B11636A2040002CE19 /* WSMainViewController.h */,
+				DB7445B21636A2040002CE19 /* WSMainViewController.m */,
+				DBF595AF16379923004A9AB1 /* Plist */,
+				DBF595AE163790B8004A9AB1 /* NSUserDefaults */,
+				DBF595BF1638EA9B004A9AB1 /* RawFileAPIs */,
+				DBD7441C163A56C7003E793C /* NSCoding */,
+				DBF8DFD4163E9126005895B0 /* WSSQLite */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DBD7441C163A56C7003E793C /* NSCoding */ = {
+			isa = PBXGroup;
+			children = (
+				DBD74418163A56C2003E793C /* WSNSCodingViewController.h */,
+				DBD74419163A56C2003E793C /* WSNSCodingViewController.m */,
+				DBD7441D163A5718003E793C /* WSNSCodingData.h */,
+				DBD7441E163A5718003E793C /* WSNSCodingData.m */,
+			);
+			name = NSCoding;
+			sourceTree = "<group>";
+		};
+		DBF595AE163790B8004A9AB1 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				DBF595AB163790B0004A9AB1 /* WSUDViewController.h */,
+				DBF595AC163790B0004A9AB1 /* WSUDViewController.m */,
+			);
+			name = NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		DBF595AF16379923004A9AB1 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				DBF595B01637993A004A9AB1 /* WSPlistViewController.h */,
+				DBF595B11637993A004A9AB1 /* WSPlistViewController.m */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		DBF595BF1638EA9B004A9AB1 /* RawFileAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				DBF595BB1638EA98004A9AB1 /* WSRawFileAPIsViewController.h */,
+				DBF595BC1638EA98004A9AB1 /* WSRawFileAPIsViewController.m */,
+			);
+			name = RawFileAPIs;
+			sourceTree = "<group>";
+		};
+		DBF8DFD4163E9126005895B0 /* WSSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8DFD0163E9122005895B0 /* WSSQLiteViewController.h */,
+				DBF8DFD1163E9122005895B0 /* WSSQLiteViewController.m */,
+			);
+			name = WSSQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +254,13 @@
 			files = (
 				DB74459716369BB00002CE19 /* main.m in Sources */,
 				DB74459B16369BB00002CE19 /* WSAppDelegate.m in Sources */,
+				DB7445B31636A2040002CE19 /* WSMainViewController.m in Sources */,
+				DBF595AD163790B0004A9AB1 /* WSUDViewController.m in Sources */,
+				DBF595B21637993A004A9AB1 /* WSPlistViewController.m in Sources */,
+				DBF595BD1638EA98004A9AB1 /* WSRawFileAPIsViewController.m in Sources */,
+				DBD7441A163A56C2003E793C /* WSNSCodingViewController.m in Sources */,
+				DBD7441F163A5718003E793C /* WSNSCodingData.m in Sources */,
+				DBF8DFD2163E9122005895B0 /* WSSQLiteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +369,7 @@
 				DB7445A616369BB00002CE19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
